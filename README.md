@@ -1,4 +1,23 @@
+
+
+
+
+## 添加Dockerfile
+
+```bash
+#使用方法
+#创建image
+docker build -t proxy .
+#运行, 6666为本地监听端口
+docker run -it -p 6666:8000 proxy
+```
+
+感谢原作者的优秀项目，以下为原README
+
+***
+
 ﻿# IPProxyPool
+
 IPProxyPool代理池项目，提供代理ip。支持py2和py3两个版本。
 ### 我的新书[《Python爬虫开发与项目实战》](https://item.jd.com/12206762.html)出版了,喜欢的话可以看一下[样章](http://pan.baidu.com/s/1hrWEOYg)
 <br/>
